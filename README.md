@@ -1,26 +1,26 @@
-Billboard Hot 100 to Spotify Playlist Creator -  Musical Time Machine
-Overview
+###Billboard Hot 100 to Spotify Playlist Creator -  Musical Time Machine
+
+**Overview**
 This Python project scrapes the Billboard Hot 100 chart for a specified date and creates a Spotify playlist with the top 100 songs from that time period. The project leverages web scraping with BeautifulSoup, API interaction with Spotify using the Spotipy library, and user input for date selection.
 
-Features
+**Features**
 Scrapes Billboard Hot 100: Retrieves the list of top 100 songs for a given date from the Billboard Hot 100 chart.
 Spotify Playlist Integration: Authenticates with Spotify and creates a private playlist with the retrieved songs.
 Error Handling: Handles cases where some songs might not be found on Spotify.
-Requirements
-Python 3.x
-requests
-beautifulsoup4
-spotipy
-Installation
-Clone the repository:
 
-bash
-Copy code
+**Requirements**
+1. Python 3.x
+2. requests
+3. beautifulsoup4
+4. spotipy
+
+**Installation**
+1. Clone the repository:   
+```bash
 git clone https://github.com/dhingra30/billboard-to-spotify.git
-Navigate to the project directory:
 
-bash
-Copy code
+2. Navigate to the project directory:
+```bash
 cd billboard-to-spotify
 Install the required packages:
 
